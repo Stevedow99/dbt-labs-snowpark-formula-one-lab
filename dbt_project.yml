@@ -3,7 +3,7 @@ version: '1.3.0'
 require-dbt-version: '>=1.3.0'
 config-version: 2
 
-# This setting configures which "profile" dbt uses for this project.
+# This setting configures which "profile" dbt uses for this project. sd check
 profile: 'default'
 
 # These configurations specify where dbt should look for different types of files.
