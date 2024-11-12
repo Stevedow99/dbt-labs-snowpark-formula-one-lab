@@ -17,3 +17,4 @@ select * from {{ ref('fct_lap_times') }}
         where lap_time_milliseconds is not null 
     )
     select * from expanded_lap_times_by_year
+
